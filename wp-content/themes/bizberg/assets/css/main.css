@@ -1,0 +1,194 @@
+/*------------------------------------------------------------------
+* Table of Content
+* 1. Fonts
+* 2. Reset
+* 3. Default Typography
+-------------------------------------------------------------------*/
+
+/*************************
+*******Fonts******
+**************************/
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('./../fonts/OpenSansRegular.eot');
+    src: url('./../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('./../fonts/OpenSansRegular.woff2') format('woff2'),
+         url('./../fonts/OpenSansRegular.woff') format('woff'),
+         url('./../fonts/OpenSansRegular.ttf') format('truetype'),
+         url('./../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'Aclonica';
+    src: url('./../fonts/Aclonica.eot');
+    src: url('./../fonts/Aclonica.eot') format('embedded-opentype'),
+         url('./../fonts/Aclonica.woff2') format('woff2'),
+         url('./../fonts/Aclonica.woff') format('woff'),
+         url('./../fonts/Aclonica.ttf') format('truetype'),
+         url('./../fonts/Aclonica.svg#Aclonica') format('svg');
+}
+
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('./../fonts/MontserratRegular.eot');
+    src: url('./../fonts/MontserratRegular.eot') format('embedded-opentype'),
+         url('./../fonts/MontserratRegular.woff2') format('woff2'),
+         url('./../fonts/MontserratRegular.woff') format('woff'),
+         url('./../fonts/MontserratRegular.ttf') format('truetype'),
+         url('./../fonts/MontserratRegular.svg#MontserratRegular') format('svg');
+}
+
+
+
+/*************************
+*******Reset******
+**************************/
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+ol,
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: 'OpenSansRegular';
+  font-weight: 400;
+  color: #64686d;
+  line-height: 1.8em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+object,
+embed {
+    max-width: 100%;
+}
+
+
+/*************************
+*******Default Typography******
+**************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+ text-shadow:none;
+
+}
+
+h1{
+  font-size:44px
+}
+
+h2{
+  font-size:36px
+}
+
+h3{
+  font-size:24px
+}
+
+h4{
+  font-size:19px
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+a {
+  color: #2fbeef;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #2fbeef;
+}
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+
+ol, ul, p{
+    margin: 0;
+}
+
+p{
+  font-size: 14px;
+}
+
+small{font-size: 100%;}
+
+
+.overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); /* browsers */ filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#7c000000', endColorstr='#7c000000'); /* IE */ }
